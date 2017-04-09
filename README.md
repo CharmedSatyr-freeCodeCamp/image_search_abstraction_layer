@@ -1,6 +1,6 @@
 # Image Search Abstraction Layer
 ### "Image Search Abstraction Layer" is a project required for freeCodeCamp Back End Development Certification: https://www.freecodecamp.com/challenges/image-search-abstraction-layer
-**Date Completed: April 9, 2017**
+**Date Completed: April 10, 2017**
 
 See the project on Heroku at: https://charmed-isal.herokuapp.com/
 

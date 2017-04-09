@@ -18,21 +18,11 @@ const express = require('express'),
     port = process.env.PORT || 8080;
 
 /*
-//Create a collection
-db.createCollection('Queries', {
-    capped: false,
-    size: 5242880,
-    max: 5000
-});
-collection = db.collection('urls');
-*/
-
-/*
 //Supposedly this function would load all our models if we had a lot
 const fs = require('fs');
-fs.readdirSync(path.join(__dirname + '/models')).forEach(function(filename) {
+fs.readdirSync(__dirname + '/models').forEach(function(filename) {
     if (~ filename.indexOf('.js'))
-        require(path.join(__dirname + '/models/' + filename));
+        require(__dirname + '/models/' + filename);
 });
 */
 

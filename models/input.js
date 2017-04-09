@@ -10,7 +10,13 @@ const inputSchema = new Schema({
         type: Date,
         default: Date.now
     }
-});
+}/*, {
+    capped: {
+        size: 1024,
+        max: 1000,
+        autoIndexId: true
+    }
+}*/);
 
 //first is db name, second is Schema defined above
-module.exports = mongoose.model('Queries', inputSchema);
+module.exports = mongoose.model('queries', inputSchema);
