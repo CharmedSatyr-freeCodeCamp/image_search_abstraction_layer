@@ -5,6 +5,7 @@
 * Create/manage a Custom Google Search: https://cse.google.com/cse/
 * NPM Package used here: https://www.npmjs.com/package/google-search
 */
+require('dotenv').config();
 
 const express = require('express'),
     app = express(),
@@ -15,7 +16,6 @@ const express = require('express'),
     mongoLink = process.env.MONGO_URI || 'mongodb://localhost:27017/image_search_abstraction_layer',
     db = mongoose.connection,
     port = process.env.PORT || 8080;
-require('dotenv').config();
 
 /*
 //Create a collection
@@ -41,6 +41,7 @@ mongoose.connect(mongoLink, function(err, db) {
         ? console.error('Unable to connect to the MongoDB server. Error:', err)
         : console.log('Connection established to', mongoLink)
 });
+
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', () => {
     console.log('Database connected');
