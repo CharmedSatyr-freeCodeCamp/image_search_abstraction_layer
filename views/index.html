@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang='en'>
+
+    <head>
+        <meta charset='utf-8' />
+        <title>Charmed ISAL</title>
+        <style type='text/css'>
+            body {
+                margin: 3%;
+                text-align: center;
+            }
+        </style>
+        <link rel='stylesheet' type='text/css' href='./css/bootstrap.min.css' />
+    </head>
+
+    <body>
+        <header class='container-fluid'>
+            <h3>Charmed Image Search Abstraction Layer</h3>
+        </header>
+        <br/>
+        <main class='container-fluid'>
+            <p>This site uses a Google Search API to show image metadata based on user searches.</p>
+            <p>Enter your search term after <code>https://charmed-isal.herokuapp.com/search/</code> in the URL bar.</p>
+            <br/>
+            <p>Paginate through results by adding <code>query?offset=[page number]</code> to the end of the URL.</p>
+            <br/>
+            <p>For example, search for <code>Dolphins</code> image metadata at:</p>
+            <p><code>https://charmed-isal.herokuapp.com/search/Dolphins</code></p>
+            <br/>
+            <p>See Page 2 of <code>Dolphins</code> results at:</p>
+            <p><code>https://charmed-isal.herokuapp.com/search/Dolphins?offset=2</code></p>
+            <br/>
+            <p>You may also see the 10 most recent searches by visiting:</p>
+            <p><code>https://charmed-isal.herokuapp.com/recent/</code></p>
+        </main>
+    </body>
+
+</html>

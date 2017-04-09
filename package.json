@@ -1,0 +1,34 @@
+{
+  "name": "image_search_abstraction_layer",
+  "version": "1.0.0",
+  "description": "\"Image Search Abstraction Layer\" is a project required for freeCodeCamp Back End Development Certification.\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharmedSatyr/image_search_abstraction_layer.git"
+  },
+  "keywords": [
+    "freeCodeCamp",
+    "Node",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "CharmedSatyr",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/CharmedSatyr/image_search_abstraction_layer/issues"
+  },
+  "homepage": "https://github.com/CharmedSatyr/image_search_abstraction_layer#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "google-search": "0.0.5",
+    "mongodb": "^2.2.25",
+    "mongoose": "^4.9.3"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
