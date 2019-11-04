@@ -27,6 +27,6 @@
     "express": "^4.15.2",
     "google-search": "0.0.5",
     "mongodb": "^2.2.25",
-    "mongoose": "^4.9.3"
+    "mongoose": "^5.7.5"
   }
 }
